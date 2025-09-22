@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kenneth Corroz Nuneza — AI/ML & Software Specialist, Data Management & Prompt Engineer</title>
+    <meta name="description" content="Portfolio of Kenneth Corroz Nuneza — Artificial Intelligence: Machine Learning & Software Specialist, Data Management & Prompt Engineer. Projects, experience, and contact." />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-start: #0f1724;
+            --bg-end: #071028;
+            --card-start: #0b1220;
+            --card-end: rgba(11, 18, 32, 0.7);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(180deg, var(--bg-start) 0%, var(--bg-end) 100%);
+            color: #e6eef8;
+        }
+
+        /* Custom animation for the hero section */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-on-load {
+            animation: fadeIn 0.8s ease-out;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-10 lg:p-12">
+    <div class="max-w-6xl mx-auto">
+        <!-- Header -->
+        <header class="flex items-center justify-between mb-8 md:mb-12">
+            <div class="flex items-center space-x-4">
+                <div class="w-16 h-16 rounded-xl bg-gradient-to-tr from-purple-600 to-cyan-500 flex items-center justify-center font-bold text-lg text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 9.5a2.5 2.5 0 0 0-5 0v5a2.5 2.5 0 0 0 5 0" />
+                        <path d="M5.5 18.5 3 21" />
+                        <path d="m18.5 18.5 2.5 2.5" />
+                        <path d="M2.5 10.5 5 13" />
+                        <path d="M22.5 10.5 20 13" />
+                        <path d="M12 21.5V16" />
+                        <path d="M12 2.5V8" />
+                        <path d="m14 22 8-8" />
+                        <path d="M22 14v4.5" />
+                        <path d="m10 2 8 8" />
+                        <path d="m10 14-8 8" />
+                        <path d="M2 14v4.5" />
+                        <path d="M12 2v4.5" />
+                        <path d="m14 2 8 8" />
+                        <path d="M2 10v4.5" />
+                        <path d="m10 22-8-8" />
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-semibold m-0">Kenneth Corroz Nuneza</h1>
+                    <p class="text-sm md:text-base text-purple-400 m-0">Artificial Intelligence: Machine Learning & Software Specialist</p>
+                    <p class="text-sm md:text-base text-purple-400 m-0">Data Management & Prompt Engineer</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-3">
+                <button class="px-4 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-purple-600 to-cyan-500 hover:opacity-80 transition-opacity" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">Projects</button>
+                <button class="px-4 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-purple-600 to-cyan-500 hover:opacity-80 transition-opacity" onclick="document.getElementById('experience').scrollIntoView({ behavior: 'smooth' })">Experience</button>
+                <a class="px-4 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-purple-600 to-cyan-500 hover:opacity-80 transition-opacity" href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
+            <!-- Main Content Section -->
+            <section class="lg:col-span-2 space-y-8 md:space-y-12">
+                <!-- Hero/About Section -->
+                <article class="p-6 md:p-8 rounded-2xl bg-gradient-to-b from-[#0b1220] to-white/5 border border-white/5 fade-in-on-load">
+                    <div class="flex flex-col md:flex-row items-start md:items-center space-y-6 md:space-y-0 md:space-x-8">
+                        <div class="w-40 h-40 rounded-2xl overflow-hidden shadow-lg border border-white/10 bg-white/5 drop-shadow-lg">
+                            <img src="https://img.restaurantguru.com/reviews/original/1261540.jpg" onerror="this.src='https://placehold.co/160x160/2a2a2a/ffffff?text=Photo+Unavailable';">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-slate-400 mb-4">I'm a specialist in artificial intelligence, machine learning, and software. I excel at developing and deploying robust AI systems and turning complex data challenges into intelligent, scalable solutions.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 text-xs rounded-full bg-white/5 text-slate-400">Python</span>
+                                <span class="px-3 py-1 text-xs rounded-full bg-white/5 text-slate-400">TensorFlow</span>
+                                <span class="px-3 py-1 text-xs rounded-full bg-white/5 text-slate-400">PyTorch</span>
+                                <span class="px-3 py-1 text-xs rounded-full bg-white/5 text-slate-400">AWS SageMaker</span>
+                                <span class="px-3 py-1 text-xs rounded-full bg-white/5 text-slate-400">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projects Section -->
+                <article id="projects" class="p-6 md:p-8 rounded-2xl bg-gradient-to-b from-[#0b1220] to-white/5 border border-white/5">
+                    <h3 class="text-lg font-semibold mb-4">Featured Projects</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="projectsGrid"></div>
+                </article>
+
+                <!-- Experience Section -->
+                <article id="experience" class="p-6 md:p-8 rounded-2xl bg-gradient-to-b from-[#0b1220] to-white/5 border border-white/5">
+                    <h3 class="text-lg font-semibold mb-4">Experience</h3>
+                    <div class="space-y-4 text-slate-400">
+                        <p class="text-lg font-bold text-white">Principal AI/ML Engineer — Innovate AI (2021–Present)</p>
+                        <p class="text-sm">Led the development of a core AI platform, increasing model accuracy by 15% and reducing inference latency.</p>
+                        <p class="text-lg font-bold text-white mt-4">Senior Software Engineer — Tech Solutions (2017–2021)</p>
+                        <p class="text-sm">Migrated legacy systems to a modern, scalable cloud infrastructure.</p>
+                        <p class="text-lg font-bold text-white mt-4">Lead Data Scientist — DataMind Solutions (2019–2021)</p>
+                        <p class="text-sm">Managed a team of data scientists and built predictive models that improved customer churn prediction by 20%.</p>
+                        <p class="text-lg font-bold text-white mt-4">Machine Learning Researcher — Institute for AI (2018–2019)</p>
+                        <p class="text-sm">Conducted research on novel deep learning architectures and co-authored a paper on few-shot learning.</p>
+                        <p class="text-lg font-bold text-white mt-4">Cloud Solutions Architect (AI/ML) — SkyScale (2016–2018)</p>
+                        <p class="text-sm">Designed and deployed scalable, cost-effective AI solutions on AWS, leveraging services like Sagemaker and Lambda.</p>
+                        <p class="text-lg font-bold text-white mt-4">DevOps Engineer (MLOps) — TechGenius (2015–2016)</p>
+                        <p class="text-sm">Implemented CI/CD pipelines for machine learning models, reducing deployment time from days to minutes.</p>
+                        <p class="text-lg font-bold text-white mt-4">Data Governance Specialist — Global Data Corp (2014–2015)</p>
+                        <p class="text-sm">Developed and enforced data quality standards and governance policies for large datasets used in business intelligence.</p>
+                        <p class="text-lg font-bold text-white mt-4">Principal Prompt Engineer — AI-Forge (2022-Present)</p>
+                        <p class="text-sm">Led the strategic direction for prompt design and optimization, resulting in a 30% increase in generative model efficiency and output quality.</p>
+                        <p class="text-lg font-bold text-white mt-4">Senior Software Engineer (AI Systems) — CodeFlow (2013–2014)</p>
+                        <p class="text-sm">Engineered and maintained core software components for an AI-driven recommendation engine, improving system reliability and performance.</p>
+                        <p class="text-lg font-bold text-white mt-4">Computer Vision Engineer — Visionary AI (2012–2013)</p>
+                        <p class="text-sm">Built and optimized computer vision models for a facial recognition platform, achieving high accuracy with minimal computational overhead.</p>
+                        <p class="text-lg font-bold text-white mt-4">Natural Language Processing (NLP) Specialist — LinguaTech (2011–2012)</p>
+                        <p class="text-sm">Developed and fine-tuned NLP models for sentiment analysis and text summarization, supporting a customer feedback analytics tool.</p>
+                        <p class="text-lg font-bold text-white mt-4">Head of AI Strategy — Futurize AI (2020-2022)</p>
+                        <p class="text-sm">Advised executive leadership on long-term AI strategy, identifying new market opportunities and directing R&D efforts.</p>
+                    </div>
+                </article>
+            </section>
+
+              <!-- Sidebar/Contact Section -->
+            <aside class="lg:col-span-1 lg:sticky lg:top-12 self-start">
+                <div class="p-6 md:p-8 rounded-2xl bg-gradient-to-b from-[#0b1220] to-white/5 border border-white/5">
+                    <h3 id="contact" class="text-lg font-semibold mb-4">Contact</h3>
+                    <div class="space-y-4">
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="mailto:kennethcorroznuneza@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            <span>Email</span>
+                        </a>
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="https://github.com/kennethcorroznuneza" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-1.4 6.6-2.8 6.6-7A5.4 5.4 0 0 0 20 5.4a2 2 0 0 0-1.5-2.7 5.4 5.4 0 0 0-2.2-.4 12.3 12.3 0 0 0-6 0 5.4 5.4 0 0 0-2.2.4A2 2 0 0 0 4 5.4a5.4 5.4 0 0 0-1 4.2c0 4.2 3.3 5.6 6.6 7a4.8 4.8 0 0 0-1 3.5v4"/><path d="M12 2C6.5 2 2 6.5 2 12c0 4.5 2.9 8.3 7 9.6.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2a2.7 2.7 0 0 0-1-1.3c-.8-.5-.2-.5-.1-.5a2 2 0 0 1 1.5 1 2.2 2.2 0 0 0 3 1c.1-.1.3-.2.4-.3a2.4 2.4 0 0 1 .7-1.5c-2.3-.3-4.8-1.2-4.8-5.3 0-1.2.4-2.3 1-3.1a4.2 4.2 0 0 1 .1-3.2s.8-.3 2.7 1c.8-.2 1.7-.3 2.6-.3s1.8.1 2.6.3c1.9-1.3 2.7-1 2.7-1a4.2 4.2 0 0 1 .1 3.2c.6.8 1 1.9 1 3.1 0 4.1-2.5 5-4.8 5.3a2.4 2.4 0 0 1 .7 1.5v2.8c0 .3.2.6.7.5C19.1 20.3 22 16.5 22 12c0-5.5-4.5-10-10-10z"/></svg>
+                            <span>Github</span>
+                        </a>
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="https://linkedin.com/in/kennethcorroznuneza" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="https://www.onlinejobs.ph/profiles/kennethcorroznuneza" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="4" ry="4"></rect>
+                                <path d="M6 18V6l4 12V6m4 12V6l4 12V6" />
+                            </svg>
+                            <span>OnlineJobs.PH Profile</span>
+                        </a>
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 12.5a.5.5 0 0 1-.5.5c-2.3 0-4.6-.2-6.8-.7a.5.5 0 0 0-.5.2l-1.5 1.5a.5.5 0 0 0 .2.5c2.3 1.3 4.8 2.3 7.3 2.9a.5.5 0 0 0 .5-.2l1.5-1.5a.5.5 0 0 0-.2-.5c-.6-.4-1.2-.7-1.8-1zm-9.3-1.6l-1.5-1.5a.5.5 0 0 0-.5-.2c-1-.2-2-.4-3-.5a.5.5 0 0 0-.5.2l-1.5 1.5a.5.5 0 0 0 .2.5c1.3.6 2.7 1.1 4.1 1.4a.5.5 0 0 0 .5-.2l1.5-1.5a.5.5 0 0 0-.2-.5c-.6-.4-1.2-.7-1.8-1z"/>
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
+                                <path d="M16 11.2a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1zM8 11.2a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1z" />
+                                <path d="M12 16.5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1zM16 16.5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1zM8 16.5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1z" />
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="https://instagram.com/kennethcorroznuneza" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" x2="17.5" y1="6.5" y2="6.5"></line>
+                            </svg>
+                            <span>Instagram</span>
+                       </a>
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="https://www.facebook.com/hiro.corroz" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                            <span>Facebook</span>
+                        </a>
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="https://x.com/kennethcorroznuneza" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM12 11l5-5m-5 5l-5 5m5-5l-5-5m5 5l5 5"/>
+                            </svg>
+                            <span>Twitter</span>
+                        </a>
+                        <a class="flex items-center space-x-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors" href="https://www.upwork.com/freelancers/kennethcorroznuneza" target="_blank" rel="noopener noreferrer">
+                               <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <linearGradient id="upwork-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                       <stop offset="0%" style="stop-color:rgb(124,58,237)" />
+                                       <stop offset="100%" style="stop-color:rgb(6,182,212)" />
+                                   </linearGradient>
+                                   <path fill="url(#upwork-gradient)" d="M14.9 8.2c0-.4.3-.8.8-.8h2.1c.4 0 .8.3.8.8v2.1c0 .4-.3.8-.8.8H15.7c-.4 0-.8-.3-.8-.8V8.2zM12.9 8.2c0-.4.3-.8.8-.8h.1c.4 0 .8.3.8.8v2.1c0 .4-.3.8-.8.8h-.1c-.4 0-.8-.3-.8-.8V8.2zM10.9 8.2c0-.4.3-.8.8-.8h.1c.4 0 .8.3.8.8v2.1c0 .4-.3.8-.8.8h-.1c-.4 0-.8-.3-.8-.8V8.2zM8.9 8.2c0-.4.3-.8.8-.8h.1c.4 0 .8.3.8.8v2.1c0 .4-.3.8-.8.8h-.1c-.4 0-.8-.3-.8-.8V8.2zM6.9 8.2c0-.4.3-.8.8-.8h.1c.4 0 .8.3.8.8v2.1c0 .4-.3.8-.8.8h-.1c-.4 0-.8-.3-.8-.8V8.2zM4.9 8.2c0-.4.3-.8.8-.8h.1c.4 0 .8.3.8.8v2.1c0 .4-.3.8-.8.8h-.1c-.4 0-.8-.3-.8-.8V8.2z"/>
+                                   <path fill="url(#upwork-gradient)" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm3.8 15.2c-.4.5-.8.9-1.2 1.3-.9.9-2.1 1.4-3.8 1.4-1.7 0-2.9-.5-3.8-1.4-.4-.4-.8-.8-1.2-1.3-.2-.2-.4-.4-.6-.6-.2-.2-.3-.5-.3-.8s.1-.5.3-.8c.2-.2.5-.3.8-.3h.1c.3 0 .6.1.8.3.4.4.8.8 1.2 1.3.9.9 2.1 1.4 3.8 1.4 1.7 0 2.9-.5 3.8-1.4.4-.4.8-.8 1.2-1.3.2-.2.5-.3.8-.3s.5.1.8.3c.2.2.3.5.3.8s-.1.5-.3.8zm-1.8-6.2c-.2.2-.4.4-.6.6-.9.9-2.1 1.4-3.8 1.4-1.7 0-2.9-.5-3.8-1.4-.4-.4-.8-.8-1.2-1.3-.2-.2-.5-.3-.8-.3s-.5.1-.8.3c-.2.2-.3.5-.3.8s.1.5.3.8c.2.2.5.3.8.3h.1c.3 0 .6.1.8.3.4.4.8.8 1.2 1.3.9.9 2.1 1.4 3.8 1.4 1.7 0 2.9-.5 3.8-1.4.4-.4.8-.8 1.2-1.3.2-.2.5-.3.8-.3s.5.1.8.3c.2.2.3.5.3.8s-.1.5-.3.8z"/>
+                               </svg>
+                            <span>Upwork Profile</span>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-12 text-center text-slate-400 text-sm">
+            <p>Bukidnon Outsourcing Company © 2025 - Kenneth Corroz Nuneza</p>
+        </footer>
+    </div>
+
+    <!-- Modal for Project Details -->
+    <div id="modal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/70 flex items-center justify-center p-4">
+        <div class="bg-[#071329] rounded-2xl p-6 md:p-8 w-full max-w-lg shadow-2xl border border-white/5 transform scale-95 opacity-0 transition-all duration-300">
+            <h3 id="modalTitle" class="text-xl font-bold mb-4 text-white">Project Details</h3>
+            <p id="modalBody" class="text-slate-300 mb-6"></p>
+            <div class="flex justify-end">
+                <button id="closeModalBtn" class="px-4 py-2 rounded-lg text-sm font-semibold text-white bg-white/10 hover:bg-white/20 transition-colors">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const projectsData = [
+            {
+                title: "Prompt Engineering for Enterprise Solutions",
+                short: "Designed and optimized prompts for large language models to enhance enterprise-level applications.",
+                details: "Developed a framework for crafting, testing, and managing prompts to improve the accuracy and relevance of AI-driven responses. This project involved deep collaboration with data scientists to fine-tune model behavior and reduce hallucination rates, leading to more reliable and trustworthy AI systems for clients."
+            },
+            {
+                title: "Data Pipeline for AI/ML Workloads",
+                short: "Built a robust data ingestion and management system for high-volume AI data.",
+                details: "Architected a scalable data pipeline using cloud services to handle petabytes of structured and unstructured data. The system includes automated data validation, cleansing, and transformation processes, ensuring high-quality input for machine learning models. This streamlined the data science workflow and accelerated model training cycles."
+            },
+            {
+                title: "Scalable MLOps Platform",
+                short: "A CI/CD and MLOps platform for automated model deployment.",
+                details: "Designed and implemented a comprehensive MLOps platform that automates the lifecycle of machine learning models from training to production. The platform leverages Docker and Kubernetes for containerization and orchestration, ensuring reliable, scalable, and reproducible model serving. This has significantly reduced deployment time and human error."
+            },
+            {
+                title: "Conversational AI and NLP Assistant",
+                short: "Developed a natural language processing assistant for customer support automation.",
+                details: "Leveraged advanced NLP techniques to build a virtual assistant that understands and responds to customer queries in real-time. The project involved training a custom model on a large dataset of support tickets, resulting in a significant reduction in first-response time and an improvement in customer satisfaction scores."
+            },
+            {
+                title: "Generative AI for Marketing Content",
+                short: "Created an AI-powered content generation tool to produce marketing materials at scale.",
+                details: "Developed a system using a fine-tuned large language model to generate blog posts, social media captions, and product descriptions based on brief inputs. The project focused on maintaining brand voice and ensuring the output was engaging and unique, significantly speeding up content creation workflows for the marketing team."
+            },
+            {
+                title: "Real-time Object Detection System",
+                short: "Engineered a computer vision model to detect and track objects in live video feeds.",
+                details: "Built a robust object detection system using a YOLO-based model, optimized for low-latency inference on edge devices. The system is capable of accurately identifying multiple classes of objects in a video stream, with applications in surveillance, retail analytics, and industrial quality control. The project included data annotation, model training, and deployment."
+            },
+            {
+                title: "Predictive Analytics for E-commerce",
+                short: "Implemented a predictive model to forecast sales and optimize inventory for an online retailer.",
+                details: "Designed and trained a machine learning model to predict future sales trends based on historical data, seasonality, and promotional events. The insights from the model enabled the company to optimize inventory levels, reduce stockouts, and improve overall supply chain efficiency, leading to a 10% increase in revenue."
+            },
+            {
+                title: "Time-Series Forecasting Model",
+                short: "Developed a model to forecast financial market trends using historical time-series data.",
+                details: "Utilized advanced time-series analysis techniques and deep learning models like LSTMs to build a forecasting system. The project involved extensive data cleaning, feature engineering, and model validation to provide accurate predictions, assisting analysts in making more informed decisions."
+            },
+            {
+                title: "AI Model Explainability and Bias Detection",
+                short: "Created a toolkit to analyze and explain AI model decisions and detect potential biases.",
+                details: "Developed a suite of tools and visualizations to help stakeholders understand how complex AI models arrive at their conclusions. The project also included methods for identifying and mitigating algorithmic bias, ensuring fairness and transparency in critical applications like credit scoring and hiring algorithms."
+            },
+            {
+                title: "Reinforcement Learning for Autonomous Systems",
+                short: "Built an agent that learns to navigate and make decisions in a simulated environment.",
+                details: "Applied reinforcement learning algorithms to train an agent to complete a complex task in a simulated 3D environment. The agent learned through trial and error, optimizing its behavior to achieve goals efficiently. This project demonstrated the potential of RL for applications in robotics and autonomous navigation."
+            }
+        ];
+
+        // Utility function to sanitize HTML output
+        const escapeHTML = (str) => {
+            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+        };
+
+        const projectsGrid = document.getElementById('projectsGrid');
+        const modal = document.getElementById('modal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalBody = document.getElementById('modalBody');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+
+        // Function to render project cards from data
+        function renderProjects() {
+            projectsData.forEach((project, index) => {
+                const projectCard = document.createElement('div');
+                projectCard.className = 'p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-transform duration-300 hover:-translate-y-1.5 cursor-pointer';
+                projectCard.innerHTML = `
+                    <h4 class="text-lg font-bold mb-1">${escapeHTML(project.title)}</h4>
+                    <p class="text-sm text-slate-400">${escapeHTML(project.short)}</p>
+                `;
+                projectCard.addEventListener('click', () => openModal(index));
+                projectsGrid.appendChild(projectCard);
+            });
+        }
+
+        // Function to open the modal with project details
+        function openModal(index) {
+            const project = projectsData[index];
+            if (project) {
+                modalTitle.textContent = project.title;
+                modalBody.textContent = project.details;
+                modal.classList.remove('hidden');
+                document.querySelector('#modal > div').classList.remove('scale-95', 'opacity-0');
+                document.querySelector('#modal > div').classList.add('scale-100', 'opacity-100');
+            }
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            document.querySelector('#modal > div').classList.remove('scale-100', 'opacity-100');
+            document.querySelector('#modal > div').classList.add('scale-95', 'opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300); // Match CSS transition duration
+        }
+        
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            renderProjects();
+        });
+
+        // Close modal when clicking outside
+        modal.addEventListener('click', (e) => {
+            if (e.target.id === 'modal') {
+                closeModal();
+            }
+        });
+        
+        closeModalBtn.addEventListener('click', closeModal);
+    </script>
+</body>
+</html>
